@@ -65,27 +65,45 @@
         class="home-image2"
       />
       <div class="home-container3">
-        <span class="home-text1">
+        <span class="home-text01">
           <span>
             <span>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non
               volutpat turpis.
-              <span v-html="rawjfye"></span>
+              <span v-html="rawkep1"></span>
             </span>
-            <span><span v-html="rawgnr4"></span></span>
+            <span><span v-html="rawyyas"></span></span>
           </span>
           <span>
             <span>
               Mauris luctus rutrum mi ut rhoncus. Integer in dignissim tortor.
-              <span v-html="rawwp6c"></span>
+              <span v-html="raw36cb"></span>
             </span>
-            <span><span v-html="rawyy1r"></span></span>
+            <span><span v-html="rawmwmg"></span></span>
           </span>
         </span>
         <div class="home-btn-group1">
           <button class="home-button button">Get Started</button>
           <button class="home-button1 button">Learn More</button>
         </div>
+      </div>
+      <div class="home-banner">
+        <h1 class="home-text08">Our Mission</h1>
+        <span class="home-text09">
+          <span>
+            <span>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non
+              volutpat turpis. Mauris luctus rutrum mi ut rhoncus. Integer in
+              dignissim tortor. Lorem ipsum dolor sit amet, consectetur adipiscing
+              elit. Sed non volutpat turpis. Mauris luctus rutrum mi ut rhoncus.
+              Integer in dignissim tortor. Sed non volutpat turpis. Mauris luctus
+              rutrum mi ut rhoncus. Integer in dignissim ortor.
+              <span v-html="rawh49b"></span>
+            </span>
+            <span><span v-html="rawrtae"></span></span>
+          </span>
+        </span>
+        <button class="home-button2 button">Read More</button>
       </div>
     </div>
   </div>
@@ -102,10 +120,12 @@ export default {
 
   data() {
     return {
-      rawjfye: ' ',
-      rawgnr4: ' ',
-      rawwp6c: ' ',
-      rawyy1r: ' ',
+      rawkep1: ' ',
+      rawyyas: ' ',
+      raw36cb: ' ',
+      rawmwmg: ' ',
+      rawh49b: ' ',
+      rawrtae: ' ',
     }
   },
 
@@ -244,7 +264,7 @@ export default {
   padding-right: var(--dl-space-space-threeunits);
   flex-direction: column;
 }
-.home-text1 {
+.home-text01 {
   font-size: 16px;
   margin-top: var(--dl-space-space-twounits);
   font-family: Inter;
@@ -282,6 +302,34 @@ export default {
 .home-button1:hover {
   border-color: var(--dl-color-gray-black);
 }
+.home-banner {
+  width: 100%;
+  display: flex;
+  padding: var(--dl-space-space-threeunits);
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.home-text08 {
+  font-size: 3rem;
+  text-align: center;
+}
+.home-text09 {
+  max-width: var(--dl-size-size-maxwidth);
+  margin-top: var(--dl-space-space-twounits);
+  text-align: center;
+  margin-bottom: var(--dl-space-space-twounits);
+}
+.home-button2 {
+  transition: 0.3s;
+  padding-top: var(--dl-space-space-unit);
+  padding-left: var(--dl-space-space-twounits);
+  padding-right: var(--dl-space-space-twounits);
+  padding-bottom: var(--dl-space-space-unit);
+}
+.home-button2:hover {
+  transform: scale(1.02);
+}
 @media(max-width: 991px) {
   .home-hero {
     flex-direction: column;
@@ -291,6 +339,9 @@ export default {
     margin-right: 0px;
     margin-bottom: var(--dl-space-space-twounits);
     padding-right: 0px;
+  }
+  .home-text09 {
+    max-width: 100%;
   }
 }
 @media(max-width: 767px) {
@@ -316,6 +367,14 @@ export default {
   .home-image2 {
     width: 80%;
   }
+  .home-banner {
+    padding-left: var(--dl-space-space-twounits);
+    padding-right: var(--dl-space-space-twounits);
+  }
+  .home-text09 {
+    padding-left: var(--dl-space-space-unit);
+    padding-right: var(--dl-space-space-unit);
+  }
 }
 @media(max-width: 479px) {
   .home-header {
@@ -339,6 +398,12 @@ export default {
   .home-button1 {
     margin-top: var(--dl-space-space-unit);
     margin-left: 0px;
+  }
+  .home-banner {
+    padding-top: var(--dl-space-space-twounits);
+    padding-left: var(--dl-space-space-unit);
+    padding-right: var(--dl-space-space-unit);
+    padding-bottom: var(--dl-space-space-twounits);
   }
 }
 </style>
