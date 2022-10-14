@@ -56,39 +56,38 @@
           </div>
         </div>
       </header>
-      <div class="home-hero">
-        <div class="home-container3">
-          <h1 class="heading">Magnificent things are very simple</h1>
-          <span class="home-text1">
+    </div>
+    <div class="home-hero">
+      <h1 class="heading">Magnificent things are very simple</h1>
+      <img
+        alt="image"
+        src="https://images.unsplash.com/photo-1525498128493-380d1990a112?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDI0fHxtaW5pbWFsaXNtJTIwZ3JlZW58ZW58MHx8fHwxNjI1ODQxMDcw&amp;ixlib=rb-1.2.1&amp;h=1500"
+        class="home-image2"
+      />
+      <div class="home-container3">
+        <span class="home-text1">
+          <span>
             <span>
-              <span>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non
-                volutpat turpis.
-                <span v-html="rawqfd4"></span>
-              </span>
-              <span><span v-html="rawnjc7"></span></span>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non
+              volutpat turpis.
+              <span v-html="rawjfye"></span>
             </span>
-            <span>
-              <span>
-                Mauris luctus rutrum mi ut rhoncus. Integer in dignissim tortor.
-                <span v-html="raweqwr"></span>
-              </span>
-              <span><span v-html="rawwzos"></span></span>
-            </span>
+            <span><span v-html="rawgnr4"></span></span>
           </span>
-          <div class="home-btn-group1">
-            <button class="home-button button">Get Started</button>
-            <button class="home-button1 button">Learn More</button>
-          </div>
+          <span>
+            <span>
+              Mauris luctus rutrum mi ut rhoncus. Integer in dignissim tortor.
+              <span v-html="rawwp6c"></span>
+            </span>
+            <span><span v-html="rawyy1r"></span></span>
+          </span>
+        </span>
+        <div class="home-btn-group1">
+          <button class="home-button button">Get Started</button>
+          <button class="home-button1 button">Learn More</button>
         </div>
-        <img
-          alt="image"
-          src="https://images.unsplash.com/photo-1525498128493-380d1990a112?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDI0fHxtaW5pbWFsaXNtJTIwZ3JlZW58ZW58MHx8fHwxNjI1ODQxMDcw&amp;ixlib=rb-1.2.1&amp;h=1500"
-          class="home-image2"
-        />
       </div>
     </div>
-    <div>Placeholder for widget timer</div>
   </div>
 </template>
 
@@ -103,10 +102,10 @@ export default {
 
   data() {
     return {
-      rawqfd4: ' ',
-      rawnjc7: ' ',
-      raweqwr: ' ',
-      rawwzos: ' ',
+      rawjfye: ' ',
+      rawgnr4: ' ',
+      rawwp6c: ' ',
+      rawyy1r: ' ',
     }
   },
 
@@ -232,9 +231,12 @@ export default {
   padding: var(--dl-space-space-threeunits);
   max-width: auto;
   min-height: 80vh;
-  align-items: center;
-  flex-direction: row;
-  justify-content: space-between;
+  flex-direction: column;
+  justify-content: center;
+}
+.home-image2 {
+  width: 400px;
+  object-fit: cover;
 }
 .home-container3 {
   display: flex;
@@ -279,10 +281,6 @@ export default {
 }
 .home-button1:hover {
   border-color: var(--dl-color-gray-black);
-}
-.home-image2 {
-  width: 400px;
-  object-fit: cover;
 }
 @media(max-width: 991px) {
   .home-hero {

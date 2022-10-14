@@ -7,7 +7,6 @@
     <span class="navigation-links-text1">{{ text2 }}</span>
     <span class="navigation-links-text2">{{ text3 }}</span>
     <span class="navigation-links-text3">{{ text4 }}</span>
-    <div>Placeholder for widget timer</div>
   </nav>
 </template>
 
