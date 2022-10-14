@@ -64,16 +64,16 @@
               <span>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non
                 volutpat turpis.
-                <span v-html="rawjumd"></span>
+                <span v-html="rawutov"></span>
               </span>
-              <span><span v-html="rawyw5t"></span></span>
+              <span><span v-html="rawhtrb"></span></span>
             </span>
             <span>
               <span>
                 Mauris luctus rutrum mi ut rhoncus. Integer in dignissim tortor.
-                <span v-html="raw4ju3"></span>
+                <span v-html="raw7zk5"></span>
               </span>
-              <span><span v-html="rawuszg"></span></span>
+              <span><span v-html="rawz5ac"></span></span>
             </span>
           </span>
           <div class="home-btn-group1">
@@ -103,10 +103,10 @@ export default {
 
   data() {
     return {
-      rawjumd: ' ',
-      rawyw5t: ' ',
-      raw4ju3: ' ',
-      rawuszg: ' ',
+      rawutov: ' ',
+      rawhtrb: ' ',
+      raw7zk5: ' ',
+      rawz5ac: ' ',
     }
   },
 
